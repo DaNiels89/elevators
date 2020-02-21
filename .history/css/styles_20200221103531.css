@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#my-container {
+  height: auto;
+  width: 520px;
+}
+
+.elevator {
+  height: 100px;
+  width: 120px;
+  top: 0;
+  position: fixed;
+  transition: top 1s, left 1s;
+}
+
+#elevator1 {
+  background-color: blue;
+  left: 140px;
+}
+
+#elevator2 {
+  background-color: green;
+  left: 270px;
+}
+
+#elevator3 {
+  background-color: red;
+  left: 400px;
+}
+
+.floor {
+  height: 99px;
+  vertical-align: top;
+  border-bottom: 1px solid black;
+}

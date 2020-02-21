@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>JQ</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="move.js"></script>
+  </head>
+
+  <body>
+    <div id="my-container">
+      <div class="elevator" id="elevator1">
+        <h4>Elevator 1</h4>
+        <button class="btn click-me1" id="click-me1">
+          1
+        </button>
+        <button class="btn click-me1" id="click-me2">
+          2
+        </button>
+        <button class="btn click-me1" id="click-me3">
+          3
+        </button>
+        <button class="btn click-me1" id="click-me4">
+          4
+        </button>
+        <button class="btn click-me1" id="click-me5">
+          5
+        </button>
+        <button class="btn click-me1" id="click-me6">
+          6
+        </button>
+        <button class="btn click-me1" id="click-me7">
+          7
+        </button>
+        <button class="btn click-me1" id="click-me8">
+          8
+        </button>
+      </div>
+      <div class="elevator" id="elevator2">
+        <h4>Elevator 2</h4>
+        <button class="btn click-me2" id="click-me1">
+          1
+        </button>
+        <button class="btn click-me2" id="click-me2">
+          2
+        </button>
+        <button class="btn click-me2" id="click-me3">
+          3
+        </button>
+        <button class="btn click-me2" id="click-me4">
+          4
+        </button>
+        <button class="btn click-me2" id="click-me5">
+          5
+        </button>
+        <button class="btn click-me2" id="click-me6">
+          6
+        </button>
+        <button class="btn click-me2" id="click-me7">
+          7
+        </button>
+        <button class="btn click-me2" id="click-me8">
+          8
+        </button>
+      </div>
+      <div class="elevator" id="elevator3">
+        <h4>Elevator 3</h4>
+        <button class="btn click-me3" id="click-me1">
+          1
+        </button>
+        <button class="btn click-me3" id="click-me2">
+          2
+        </button>
+        <button class="btn click-me3" id="click-me3">
+          3
+        </button>
+        <button class="btn click-me3" id="click-me4">
+          4
+        </button>
+        <button class="btn click-me3" id="click-me5">
+          5
+        </button>
+        <button class="btn click-me3" id="click-me6">
+          6
+        </button>
+        <button class="btn click-me3" id="click-me7">
+          7
+        </button>
+        <button class="btn click-me3" id="click-me8">
+          8
+        </button>
+      </div>
+
+      <div class="floor" id="floor8">
+        <span>Floor </span>
+        <button class="btn click-me" id="click-me8">
+          8
+        </button>
+      </div>
+      <div class="floor" id="floor7">
+        <span>Floor </span>
+        <button class="btn click-me" id="click-me7">
+          7
+        </button>
+      </div>
+      <div class="floor" id="floor6">
+        <span>Floor </span>
+        <button class="btn click-me" id="click-me6">
+          6
+        </button>
+      </div>
+      <div class="floor" id="floor5">
+        <span>Floor </span>
+        <button class="btn click-me" id="click-me5">
+          5
+        </button>
+      </div>
+      <div class="floor" id="floor4">
+        <span>Floor </span>
+        <button class="btn click-me" id="click-me4">
+          4
+        </button>
+      </div>
+      <div class="floor" id="floor3">
+        <span>Floor </span>
+        <button class="btn click-me" id="click-me3">
+          3
+        </button>
+      </div>
+      <div class="floor" id="floor2">
+        <span>Floor </span>
+        <button class="btn click-me" id="click-me2">
+          2
+        </button>
+      </div>
+      <div class="floor" id="floor1">
+        <span>Floor </span>
+        <button class="btn click-me" id="click-me1">
+          1
+        </button>
+      </div>
+    </div>
+  </body>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    #my-container {
+      height: auto;
+      width: 520px;
+    }
+
+    .elevator {
+      height: 100px;
+      width: 120px;
+      top: 0;
+      position: fixed;
+      transition: top 1s, left 1s;
+    }
+
+    #elevator1 {
+      background-color: blue;
+      left: 140px;
+    }
+
+    #elevator2 {
+      background-color: green;
+      left: 270px;
+    }
+
+    #elevator3 {
+      background-color: red;
+      left: 400px;
+    }
+
+    .floor {
+      height: 99px;
+      vertical-align: top;
+      border-bottom: 1px solid black;
+    }
+  </style>
+</html>
